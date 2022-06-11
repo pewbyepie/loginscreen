@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body .login-page {
+  position: relative;
+  background-image: url("img/bg.jpeg");
+  background-size: cover;
+  height: 100vh;
+}
+
+body .login-page:after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+body .login-page .box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 280px;
+  z-index: 2;
+}
+
+body .login-page .box .form-head h2 {
+  text-align: center;
+  margin: 10px 0px 20px;
+  color: #ffffff;
+}
+
+body .login-page .box .form-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .login-page .box .form-body input {
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 20px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-transition: -webkit-box-shadow .5s ease;
+  transition: -webkit-box-shadow .5s ease;
+  transition: box-shadow .5s ease;
+  transition: box-shadow .5s ease, -webkit-box-shadow .5s ease;
+}
+
+body .login-page .box .form-body input:focus {
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+
+body .login-page .box .form-body input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+body .login-page .box .form-body input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+body .login-page .box .form-body input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+body .login-page .box .form-body input::placeholder {
+  color: #ffffff;
+}
+
+body .login-page .box .form-footer {
+  text-align: center;
+}
+
+body .login-page .box .form-footer button {
+  height: 40px;
+  border-radius: 20px;
+  padding: 0px 50px;
+  color: #ffffff;
+  background-color: #36506B;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow .5s ease;
+  transition: -webkit-box-shadow .5s ease;
+  transition: box-shadow .5s ease;
+  transition: box-shadow .5s ease, -webkit-box-shadow .5s ease;
+}
+
+body .login-page .box .form-footer button:hover {
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+/*# sourceMappingURL=style.css.map */
